@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Catant"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="CATANT" Height="450" Width="600">
     <Grid>
+        <Button Content="START" HorizontalAlignment="Center" VerticalAlignment="Center" Height="55" Width="192" FontSize="36" FontFamily="CARBON-DROID"/>
+        <Button Content="OPTIONS" HorizontalAlignment="Center" Margin="0,250,0,0" VerticalAlignment="Top" Height="55" Width="192" FontSize="36" FontFamily="CARBON-DROID"/>
+        <Button Content="CREDITS" HorizontalAlignment="Center" Margin="0,310,0,0" VerticalAlignment="Top" Height="55" Width="192" FontSize="36" FontFamily="CARBON-DROID"/>
+        <Button Content="EXIT" HorizontalAlignment="Center" VerticalAlignment="Top" Height="55" Width="192" FontSize="36" FontFamily="CARBON-DROID" Margin="0,369,0,0"/>
 
     </Grid>
 </Window>
